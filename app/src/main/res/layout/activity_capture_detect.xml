@@ -8,10 +8,14 @@
     tools:layout_editor_absoluteY="81dp">
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:id="@+id/linearLayout4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:orientation="vertical"
-        tools:layout_editor_absoluteY="101dp">
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -44,13 +48,14 @@
                     tools:layout_editor_absoluteY="288dp" />
 
                 <ImageButton
-                    android:id="@+id/detect"
+                    android:id="@+id/upload"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    app:srcCompat="@drawable/ic_touch_app_black_24dp"
+                    app:srcCompat="@drawable/ic_cloud_upload_black_24dp"
                     tools:layout_editor_absoluteX="147dp"
                     tools:layout_editor_absoluteY="287dp" />
+
 
                 <ImageButton
                     android:id="@+id/gallery"
@@ -66,39 +71,30 @@
         </LinearLayout>
 
         <LinearLayout
+            android:layout_width="354dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
             android:layout_marginTop="20dp"
-            android:layout_marginLeft = "15dp"
-            android:layout_marginRight = "15dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/detect"
+                android:layout_width="113dp"
+                android:layout_height="69dp"
+                app:srcCompat="@drawable/ic_touch_app_black_24dp" />
 
             <TextView
                 android:id="@+id/result"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_width="230dp"
+                android:layout_height="56dp"
                 android:layout_marginBottom="8dp"
                 android:layout_marginEnd="8dp"
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="8dp"
-                android:gravity="center"
                 android:text=""
-                android:textSize="24sp"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.955" />
+                android:textSize="24sp" />
 
-            <ImageButton
-                android:id="@+id/upload"
-                android:layout_width="match_parent"
-                android:layout_height="75dp"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintLeft_toLeftOf="parent"
-                app:layout_constraintRight_toRightOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/gallery"
-                app:srcCompat="@drawable/ic_cloud_upload_black_24dp" />
 
         </LinearLayout>
     </LinearLayout>
