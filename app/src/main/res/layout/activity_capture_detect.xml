@@ -105,7 +105,7 @@
                 android:layout_marginEnd="8dp"
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="8dp"
-                android:background="@drawable/borderstyle"
+                android:background="@drawable/ovalbutton"
                 android:gravity="center"
                 android:hint="DermaSpot Result"
                 android:text=""
