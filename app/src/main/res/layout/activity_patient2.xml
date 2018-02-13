@@ -8,6 +8,13 @@
     tools:layout_editor_absoluteY="81dp">
 
     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#1a75ff"
+        android:layout_marginBottom="50dp"
+        android:orientation="vertical"></LinearLayout>
+
+    <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -23,13 +30,14 @@
             android:id="@+id/textView14"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="User profile"
+            android:text="User Profile"
             android:textAppearance="@style/TextAppearance.AppCompat.Title" />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="35dp"
             android:layout_marginTop="25dp"
+            android:background="@drawable/borderbutton"
             android:orientation="horizontal">
 
             <TextView
@@ -51,6 +59,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="35dp"
+            android:background="@drawable/borderbutton"
             android:orientation="horizontal">
 
             <TextView
@@ -72,6 +81,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="35dp"
+            android:background="@drawable/borderbutton"
             android:orientation="horizontal">
 
             <TextView
@@ -93,6 +103,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="35dp"
+            android:background="@drawable/borderbutton"
             android:orientation="horizontal">
 
             <TextView
