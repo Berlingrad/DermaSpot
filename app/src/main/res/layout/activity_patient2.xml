@@ -7,12 +7,31 @@
     tools:context="com.example.samx.dermaspot.PatientActivity2"
     tools:layout_editor_absoluteY="81dp">
 
+
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="#1a75ff"
+        android:id="@+id/linearLayout2"
+        android:layout_width="0dp"
+        android:layout_height="254dp"
         android:layout_marginBottom="50dp"
-        android:orientation="vertical"></LinearLayout>
+        android:background="#80bfff"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3"></LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="1dp"
+        android:background="#ffffff"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></LinearLayout>
 
     <LinearLayout
         android:id="@+id/linearLayout"
@@ -31,7 +50,8 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:text="User Profile"
-            android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            android:textColor="#80bfff" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -43,8 +63,10 @@
             <TextView
                 android:id="@+id/textView2"
                 android:layout_width="25dp"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
                 android:layout_weight="1"
+                android:gravity="center_vertical"
                 android:text="Name" />
 
             <TextView
@@ -52,6 +74,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:gravity="center_horizontal"
                 android:text="TextView" />
 
         </LinearLayout>
@@ -66,7 +89,9 @@
                 android:id="@+id/textView4"
                 android:layout_width="25dp"
                 android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
                 android:layout_weight="1"
+                android:gravity="center_vertical"
                 android:text="Gender" />
 
             <TextView
@@ -74,6 +99,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:gravity="center_horizontal"
                 android:text="TextView" />
 
         </LinearLayout>
@@ -87,8 +113,10 @@
             <TextView
                 android:id="@+id/textView7"
                 android:layout_width="25dp"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
                 android:layout_weight="1"
+                android:gravity="center_vertical"
                 android:text="Age" />
 
             <TextView
@@ -96,6 +124,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:gravity="center_horizontal"
                 android:text="TextView" />
 
         </LinearLayout>
@@ -109,8 +138,10 @@
             <TextView
                 android:id="@+id/textView9"
                 android:layout_width="25dp"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
                 android:layout_weight="1"
+                android:gravity="center_vertical"
                 android:text="Comment by doctor:" />
 
             <TextView
@@ -118,6 +149,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:gravity="center_horizontal"
                 android:text="TextView" />
 
         </LinearLayout>
