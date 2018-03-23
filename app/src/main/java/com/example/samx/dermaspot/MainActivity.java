@@ -21,9 +21,9 @@ public class MainActivity extends AppCompatActivity {
         // parse server setup
         Parse.enableLocalDatastore(this);
         Parse.initialize(new Parse.Configuration.Builder(getApplicationContext())
-                .applicationId( "e890aec3a736beec457250acc45e48c50244b409")
-                .clientKey("10a848c84c6076e3fdb2eba5074837b4ffaf9f32")
-                .server("http://34.227.172.130:80/parse/")
+                .applicationId( "17528e043d1a022bed5975aab4a7d9c8bdf7d097")
+                .clientKey("9d5e6e0857a5ed8db59fa5f2ea50abd96fb6775a")
+                .server("http://13.59.221.227:80/parse/")
                 .build()
         );
         ParseAnalytics.trackAppOpenedInBackground(getIntent());

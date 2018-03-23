@@ -158,6 +158,7 @@
                 android:id="@+id/imageView2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="#80bfff"
                 app:srcCompat="@mipmap/ic_launcher" />
 
             <TextView
