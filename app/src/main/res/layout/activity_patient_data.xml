@@ -44,13 +44,15 @@
                 android:layout_height="45dp"
                 android:text="Patient information"
                 android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                android:textColor="#80bfff"
                 tools:layout_editor_absoluteX="16dp"
                 tools:layout_editor_absoluteY="16dp" />
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:background="@drawable/borderbutton">
 
                 <TextView
                     android:id="@+id/textView24"
@@ -75,7 +77,8 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:background="@drawable/borderbutton">
 
                 <TextView
                     android:id="@+id/textView19"
@@ -100,7 +103,8 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:background="@drawable/borderbutton">
 
                 <TextView
                     android:id="@+id/textView20"
@@ -126,7 +130,8 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:background="@drawable/borderbutton">
 
                 <TextView
                     android:id="@+id/textView11"
@@ -150,7 +155,8 @@
                 android:layout_height="45dp"
                 android:layout_marginTop="15dp"
                 android:text="Patient picture"
-                android:textAppearance="@android:style/TextAppearance.DeviceDefault.WindowTitle"
+                android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                android:textColor="#80bfff"
                 tools:layout_editor_absoluteX="16dp"
                 tools:layout_editor_absoluteY="181dp" />
 
@@ -167,7 +173,8 @@
                 android:layout_height="45dp"
                 android:layout_marginTop="15dp"
                 android:text="Leave comment"
-                android:textAppearance="@android:style/TextAppearance.DeviceDefault.WindowTitle"
+                android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                android:textColor="#80bfff"
                 tools:layout_editor_absoluteX="16dp"
                 tools:layout_editor_absoluteY="415dp" />
 
