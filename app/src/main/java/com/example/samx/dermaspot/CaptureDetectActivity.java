@@ -43,7 +43,7 @@ public class CaptureDetectActivity extends AppCompatActivity {
     float STD = 1;
     String INPUT = "Mul";
     String OUTPUT = "final_result";
-    String MODEL = "file:///android_asset/optimized_graph.pb";
+    String MODEL = "file:///android_asset/moles_quantized_graph.pb";
     String LABEL = "file:///android_asset/labels.txt";
     @Override
     protected void onCreate(Bundle savedInstanceState) {

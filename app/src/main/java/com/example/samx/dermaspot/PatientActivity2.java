@@ -119,5 +119,3 @@ public class PatientActivity2 extends AppCompatActivity {
         }
     }// load image
 }
-
-

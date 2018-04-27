@@ -36,9 +36,10 @@
                 tools:layout_editor_absoluteY="0dp" />
 
             <LinearLayout
+
                 android:layout_width="match_parent"
                 android:layout_height="78dp"
-                android:background="@drawable/borderpic"
+                android:background="#80bfff"
                 android:orientation="horizontal">
 
                 <ImageButton
@@ -48,7 +49,7 @@
                     android:layout_marginLeft="16dp"
                     android:layout_marginTop="8dp"
                     android:layout_weight="1"
-                    android:background="#FFFFFF"
+                    android:background="#80bfff"
                     app:layout_constraintLeft_toLeftOf="parent"
                     app:srcCompat="@drawable/ic_add_a_photo_black_24dp" />
 
@@ -58,7 +59,7 @@
                     android:layout_height="65dp"
                     android:layout_marginTop="8dp"
                     android:layout_weight="1"
-                    android:background="#FFFFFF"
+                    android:background="#80bfff"
                     app:srcCompat="@drawable/ic_cloud_upload_black_24dp"
                     tools:layout_editor_absoluteX="147dp" />
 
@@ -70,7 +71,7 @@
                     android:layout_marginTop="8dp"
                     android:layout_marginRight="16dp"
                     android:layout_weight="1"
-                    android:background="#FFFFFF"
+                    android:background="#80bfff"
                     app:layout_constraintRight_toRightOf="parent"
                     app:srcCompat="@drawable/ic_collections_black_24dp" />
             </LinearLayout>
@@ -78,7 +79,7 @@
         </LinearLayout>
 
         <LinearLayout
-            android:layout_width="354dp"
+            android:layout_width="wrap_content"
             android:layout_height="112dp"
             android:layout_marginLeft="15dp"
             android:layout_marginRight="15dp"
@@ -87,19 +88,20 @@
 
             <ImageButton
                 android:id="@+id/detect"
-                android:layout_width="86dp"
+
+                android:layout_width="100dp"
                 android:layout_height="56dp"
                 android:layout_marginBottom="8dp"
                 android:layout_marginEnd="8dp"
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="8dp"
-                android:background="@drawable/borderbutton"
-                app:srcCompat="@drawable/widgettransparent"
-                android:scaleType="centerInside"/>
+                android:background="#80bfff"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/widgettransparent" />
 
             <TextView
                 android:id="@+id/result"
-                android:layout_width="230dp"
+                android:layout_width="match_parent"
                 android:layout_height="56dp"
                 android:layout_marginBottom="8dp"
                 android:layout_marginEnd="8dp"

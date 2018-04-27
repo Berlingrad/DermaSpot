@@ -2,6 +2,7 @@
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:background="#80bfff"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.samx.dermaspot.DoctorActivity">
@@ -23,6 +24,7 @@
         android:id="@+id/imageView9"
         android:layout_width="216dp"
         android:layout_height="52dp"
+        android:background="#80bfff"
         android:scaleType="centerCrop"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
